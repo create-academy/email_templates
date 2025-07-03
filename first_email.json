@@ -1,0 +1,95 @@
+{
+  "lessons": {
+    "inProgress": {
+      "title": "Introduction to Interior Design Principles",
+      "duration": 1800,
+      "teacherName": "BUNNY WILLIAMS",
+      "link": "https://createacademy.com/courses/bunny-williams/lessons/introduction-to-interior-design-principles",
+      "image": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NzExMywicHVyIjoiYmxvYl9pZCJ9fQ==--992f3233543dc8a09753803fc52278ab527f3f92/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOlsxNDQwLDgyMF0sInNhdmVyIjp7InF1YWxpdHkiOjEwMH19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--c10209b939761fec9d9159adc070036236e13d91/Hero%20image.png",
+      "progressPercentage": 45.2
+    }
+  },
+  "courses": {
+      "latest": {
+        "shortTitle": "Hand Built Pottery",
+        "courseName": "SPOTLIGHT ON HAND BUILT POTTERY",
+        "teacherName": "FREYA  BRAMBLE-CARTER",
+        "image": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTAyMzEsInB1ciI6ImJsb2JfaWQifX0=--26bdb9de1ea1bb999394e4903602e3a378ec840e/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzgwMCw4MDBdLCJzYXZlciI6eyJxdWFsaXR5IjoxMDB9fSwicHVyIjoidmFyaWF0aW9uIn19--dcfb00f7d2bab0d6f9c3c35cf54db06921dfa074/freya%20col.png",
+        "bannerImage": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6OTc0NCwicHVyIjoiYmxvYl9pZCJ9fQ==--302dc6465049ea78b2670a38f26188be9a1e06a7/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOlsxNDQwLDgyMF0sInNhdmVyIjp7InF1YWxpdHkiOjEwMH19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--c10209b939761fec9d9159adc070036236e13d91/Fr-52.jpg",
+        "bannerImageSmall": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6OTc0NCwicHVyIjoiYmxvYl9pZCJ9fQ==--302dc6465049ea78b2670a38f26188be9a1e06a7/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOls3NjgsMjg4XSwic2F2ZXIiOnsicXVhbGl0eSI6MTAwfX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--5cd840c701545f49ced0c2e2ffa7e396970a7cf0/Fr-52.jpg",
+        "bannerImageMedium": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6OTc0NCwicHVyIjoiYmxvYl9pZCJ9fQ==--302dc6465049ea78b2670a38f26188be9a1e06a7/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOls5ODAsMzY3XSwic2F2ZXIiOnsicXVhbGl0eSI6MTAwfX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--c59adb1e7ceeff5911b2b2fc35d53d55c0cb60a1/Fr-52.jpg",
+        "thumbnailImage": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6OTczNSwicHVyIjoiYmxvYl9pZCJ9fQ==--ec902964a2416fd369035d99e0f87afc14d1cd9b/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOlsxMDAsMTAwXSwic2F2ZXIiOnsicXVhbGl0eSI6MTAwfX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--198905f7be727fd0973a0155732d12ac13bac81c/Fr-19.jpeg",
+        "smallImage": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6OTczNSwicHVyIjoiYmxvYl9pZCJ9fQ==--ec902964a2416fd369035d99e0f87afc14d1cd9b/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOls1MzMsMzAwXSwic2F2ZXIiOnsicXVhbGl0eSI6MTAwfX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--e71c32d7bfdf873fe63d3a1a7562e83a6cf3c39c/Fr-19.jpeg",
+        "largeImage": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6OTczNSwicHVyIjoiYmxvYl9pZCJ9fQ==--ec902964a2416fd369035d99e0f87afc14d1cd9b/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOlsxNDQwLDgyMF0sInNhdmVyIjp7InF1YWxpdHkiOjEwMH19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--c10209b939761fec9d9159adc070036236e13d91/Fr-19.jpeg",
+        "description": "<div>Designed for complete beginners, Freya covers all the key materials and tools needed to start creating pottery at home, before introducing two projects to practice different techniques. Beginning with a small ceramic pinch bowl, Freya shows how to work the clay by hand into different forms before progressing to a larger ceramic flower vase, made using the coiled technique; a method used to create larger pieces without the need for a potter's wheel. The final lessons focus on different ceramic finishes, showing how to paint and varnish final pieces which are all air dried at home, so no professional kiln is needed.</div>",
+        "shortSummary": "Freya teaches beginners home pottery, covering essential tools, hand-shaping, coiling techniques, and air-drying with no kiln required.",
+        "instructorByline": "It can be quite intimidating when you're starting out working with clay, so I'm really thrilled to have designed a class that you can take in the privacy of your own home that will help you build in confidence.",
+        "landingPageDescription": "",
+        "seoDescription": "Freya teaches beginners home pottery, covering essential tools, hand-shaping and coiling techniques.",
+        "link": "https://createacademy.com/courses/freya-bramble-carter",
+        "releaseMonth": null,
+        "releaseDate": null,
+        "duration": 5755222,
+        "humanizedDuration": "01:35:55",
+        "outcomes": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "selected": {
+        "shortTitle": "A Definitive Guide to Decorating",
+        "courseName": "A DEFINITIVE GUIDE TO DECORATING",
+        "teacherName": "NINA CAMPBELL",
+        "image": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NzUyNCwicHVyIjoiYmxvYl9pZCJ9fQ==--38803ae687eae89641b33030944162a2bdee2113/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzgwMCw4MDBdLCJzYXZlciI6eyJxdWFsaXR5IjoxMDB9fSwicHVyIjoidmFyaWF0aW9uIn19--dcfb00f7d2bab0d6f9c3c35cf54db06921dfa074/720x1080@1.5x%203.webp",
+        "bannerImage": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mzg0NSwicHVyIjoiYmxvYl9pZCJ9fQ==--d1908021ebc1a8d6a2b0cd30e4c95f39db2c1d21/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOlsxNDQwLDgyMF0sInNhdmVyIjp7InF1YWxpdHkiOjEwMH19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--c10209b939761fec9d9159adc070036236e13d91/Massey_Create_NCampbell_013.jpg",
+        "bannerImageSmall": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mzg0NSwicHVyIjoiYmxvYl9pZCJ9fQ==--d1908021ebc1a8d6a2b0cd30e4c95f39db2c1d21/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOls3NjgsMjg4XSwic2F2ZXIiOnsicXVhbGl0eSI6MTAwfX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--5cd840c701545f49ced0c2e2ffa7e396970a7cf0/Massey_Create_NCampbell_013.jpg",
+        "bannerImageMedium": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mzg0NSwicHVyIjoiYmxvYl9pZCJ9fQ==--d1908021ebc1a8d6a2b0cd30e4c95f39db2c1d21/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOls5ODAsMzY3XSwic2F2ZXIiOnsicXVhbGl0eSI6MTAwfX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--c59adb1e7ceeff5911b2b2fc35d53d55c0cb60a1/Massey_Create_NCampbell_013.jpg",
+        "thumbnailImage": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTg5NSwicHVyIjoiYmxvYl9pZCJ9fQ==--f40e2fb485c9cf55bbc7d502cd707331ff47c1ec/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOlsxMDAsMTAwXSwic2F2ZXIiOnsicXVhbGl0eSI6MTAwfX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--198905f7be727fd0973a0155732d12ac13bac81c/NC_webheadshot.webp",
+        "smallImage": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTg5NSwicHVyIjoiYmxvYl9pZCJ9fQ==--f40e2fb485c9cf55bbc7d502cd707331ff47c1ec/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOls1MzMsMzAwXSwic2F2ZXIiOnsicXVhbGl0eSI6MTAwfX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--e71c32d7bfdf873fe63d3a1a7562e83a6cf3c39c/NC_webheadshot.webp",
+        "largeImage": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTg5NSwicHVyIjoiYmxvYl9pZCJ9fQ==--f40e2fb485c9cf55bbc7d502cd707331ff47c1ec/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOlsxNDQwLDgyMF0sInNhdmVyIjp7InF1YWxpdHkiOjEwMH19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--c10209b939761fec9d9159adc070036236e13d91/NC_webheadshot.webp",
+        "description": "<div>Join legendary interior designer Nina Campbell for her first-ever course, in which she shares over half a century of decorating experience, packaged into one comprehensive masterclass. Filmed at her home in London, you will gain unprecedented access to Nina's world, as she teaches you the decorating techniques and secrets she's gathered over a lifetime. In 4+ hours of video lessons, you will learn Nina's approach to making a room sing and how to achieve the style of comfortable-luxury that guides her practice. You will be taken step-by-step through Nina's creative process - from building colour palettes and planning layouts to mastering proportion and perspective, and her go-to lighting techniques. With her extensive knowledge of fabric, Nina shares her principles for mixing pattern, scale and texture, and teaches you how to use finishing touches to create a sense of luxury. Across three case studies, including her home and a recent US project, Nina will show you how to give a room an instant lift, how to maximise every inch of space, and how to use concealed doors to elevate a scheme. With an interactive 360° tour, you will also be able to explore in detail every aspect of Nina's thoughtfully curated home. So whether you're seeking inspiration, or looking to develop your professional skills as a designer, this course offers the opportunity to learn alongside an irrefutable design great.</div>",
+        "shortSummary": "Immerse yourself in the world of a design legend and discover 50 years of decorating tips as you're guided through every step of the design process.",
+        "instructorByline": "Everybody has their own taste, and it's just that maybe you have to be a bit more confident. And so what if you like something and somebody else doesn't like it - it's not important. As long as you like it, and you do it with joy, that's really what it's all about.",
+        "landingPageDescription": null,
+        "seoDescription": "Learn how to decorate with Nina Campbell in her first ever course",
+        "link": "https://createacademy.com/courses/nina-campbell",
+        "releaseMonth": null,
+        "releaseDate": null,
+        "duration": 29699820,
+        "humanizedDuration": "08:14:59",
+        "outcomes": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "inProgress": {
+        "shortTitle": "Dream Home",
+        "courseName": "HOW TO DESIGN YOUR DREAM HOME",
+        "teacherName": "BUNNY WILLIAMS",
+        "image": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NzgyNCwicHVyIjoiYmxvYl9pZCJ9fQ==--d09e5f6a2600bddb2855cd1c9f798b359d8770eb/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzgwMCw4MDBdLCJzYXZlciI6eyJxdWFsaXR5IjoxMDB9fSwicHVyIjoidmFyaWF0aW9uIn19--dcfb00f7d2bab0d6f9c3c35cf54db06921dfa074/Bunny.jpg",
+        "bannerImage": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NzExMywicHVyIjoiYmxvYl9pZCJ9fQ==--992f3233543dc8a09753803fc52278ab527f3f92/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOlsxNDQwLDgyMF0sInNhdmVyIjp7InF1YWxpdHkiOjEwMH19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--c10209b939761fec9d9159adc070036236e13d91/Hero%20image.png",
+        "bannerImageSmall": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NzExMywicHVyIjoiYmxvYl9pZCJ9fQ==--992f3233543dc8a09753803fc52278ab527f3f92/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOls3NjgsMjg4XSwic2F2ZXIiOnsicXVhbGl0eSI6MTAwfX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--5cd840c701545f49ced0c2e2ffa7e396970a7cf0/Hero%20image.png",
+        "bannerImageMedium": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NzExMywicHVyIjoiYmxvYl9pZCJ9fQ==--992f3233543dc8a09753803fc52278ab527f3f92/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOls5ODAsMzY3XSwic2F2ZXIiOnsicXVhbGl0eSI6MTAwfX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--c59adb1e7ceeff5911b2b2fc35d53d55c0cb60a1/Hero%20image.png",
+        "thumbnailImage": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NzExMiwicHVyIjoiYmxvYl9pZCJ9fQ==--bf700b8ec0095b7d9a10d93c24d9ec6ac9455755/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOlsxMDAsMTAwXSwic2F2ZXIiOnsicXVhbGl0eSI6MTAwfX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--198905f7be727fd0973a0155732d12ac13bac81c/reviews.02_35_59_04.Still002.jpg",
+        "smallImage": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NzExMiwicHVyIjoiYmxvYl9pZCJ9fQ==--bf700b8ec0095b7d9a10d93c24d9ec6ac9455755/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOls1MzMsMzAwXSwic2F2ZXIiOnsicXVhbGl0eSI6MTAwfX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--e71c32d7bfdf873fe63d3a1a7562e83a6cf3c39c/reviews.02_35_59_04.Still002.jpg",
+        "largeImage": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NzExMiwicHVyIjoiYmxvYl9pZCJ9fQ==--bf700b8ec0095b7d9a10d93c24d9ec6ac9455755/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOlsxNDQwLDgyMF0sInNhdmVyIjp7InF1YWxpdHkiOjEwMH19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--c10209b939761fec9d9159adc070036236e13d91/reviews.02_35_59_04.Still002.jpg",
+        "description": "<div>An icon amongst her peers and an industry legend, Bunny Williams is a household name in the New York design scene and beyond. Working as an interior designer for over five decades, her wealth of knowledge and experience is unparalleled. In her very first online course, Bunny opens the doors of her home in the Connecticut countryside and New York City apartment, offering endless inspiration while demonstrating her unique design philosophy. Taking you step-by-step through the professional process she has honed over the years, Bunny covers creating floor plans for a welcoming home, balancing scale and proportion, as well as curating colour schemes that you'll love for years to come. Bunny is an avid collector of art and objects, and offers invaluable tips throughout.</div>",
+        "shortSummary": "An icon amongst her peers and an industry legend, Bunny opens the doors of her home in the Connecticut countryside and New York City apartment.",
+        "instructorByline": "Bunny Williams, a celebrated interior designer and industry icon, is acclaimed worldwide for her contributions to the field. She holds prestigious memberships in the AD Hall of Fame, the Elle Decor A-List, and the Interior Design magazine Hall of Fame, and has been honoured with House Beautiful's Giants of Design award.",
+        "landingPageDescription": null,
+        "seoDescription": "Learn to work with scale, combining new and antique furniture layouts, building rich colour palettes, and creating a timeless, comfortable home.",
+        "link": "https://createacademy.com/courses/bunny-williams",
+        "releaseMonth": null,
+        "releaseDate": null,
+        "duration": 18929240,
+        "humanizedDuration": "05:15:29",
+        "outcomes": [
+          "",
+          "",
+          ""
+        ]
+      }
+  }
+}
