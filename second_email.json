@@ -1,0 +1,61 @@
+{
+  "courses": [
+    {
+      "shortTitle": "Gardening at Sissinghurst",
+      "courseName": "THE ART OF GARDENING AT SISSINGHURST",
+      "teacherName": "TROY SMITH",
+      "teacherAvatar": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTAyMjksInB1ciI6ImJsb2JfaWQifX0=--8465f3fd588bafccf8567bb1a689bebcb3f5bd1f/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzgwMCw4MDBdLCJzYXZlciI6eyJxdWFsaXR5IjoxMDB9fSwicHVyIjoidmFyaWF0aW9uIn19--dcfb00f7d2bab0d6f9c3c35cf54db06921dfa074/DP-108%205.png",
+      "image": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTAyMjksInB1ciI6ImJsb2JfaWQifX0=--8465f3fd588bafccf8567bb1a689bebcb3f5bd1f/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzgwMCw4MDBdLCJzYXZlciI6eyJxdWFsaXR5IjoxMDB9fSwicHVyIjoidmFyaWF0aW9uIn19--dcfb00f7d2bab0d6f9c3c35cf54db06921dfa074/DP-108%205.png",
+      "bannerImage": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6OTkxNCwicHVyIjoiYmxvYl9pZCJ9fQ==--6fefefc15450af41e862fc6fbe5b79d70bf3c18f/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOlsxNDQwLDgyMF0sInNhdmVyIjp7InF1YWxpdHkiOjEwMH19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--c10209b939761fec9d9159adc070036236e13d91/Copy%20of%20183A4583.jpg",
+      "bannerImageSmall": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6OTkxNCwicHVyIjoiYmxvYl9pZCJ9fQ==--6fefefc15450af41e862fc6fbe5b79d70bf3c18f/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOls3NjgsMjg4XSwic2F2ZXIiOnsicXVhbGl0eSI6MTAwfX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--5cd840c701545f49ced0c2e2ffa7e396970a7cf0/Copy%20of%20183A4583.jpg",
+      "bannerImageMedium": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6OTkxNCwicHVyIjoiYmxvYl9pZCJ9fQ==--6fefefc15450af41e862fc6fbe5b79d70bf3c18f/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOls5ODAsMzY3XSwic2F2ZXIiOnsicXVhbGl0eSI6MTAwfX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--c59adb1e7ceeff5911b2b2fc35d53d55c0cb60a1/Copy%20of%20183A4583.jpg",
+      "thumbnailImage": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6OTk0MSwicHVyIjoiYmxvYl9pZCJ9fQ==--046d4cc0188e19a0856a77acd90abe42e6ca4c70/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOlsxMDAsMTAwXSwic2F2ZXIiOnsicXVhbGl0eSI6MTAwfX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--198905f7be727fd0973a0155732d12ac13bac81c/Simon-Wiffen-Create-Academy-Lisa-Dawson-0759%202%20(2).jpg",
+      "smallImage": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6OTk0MSwicHVyIjoiYmxvYl9pZCJ9fQ==--046d4cc0188e19a0856a77acd90abe42e6ca4c70/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOls1MzMsMzAwXSwic2F2ZXIiOnsicXVhbGl0eSI6MTAwfX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--e71c32d7bfdf873fe63d3a1a7562e83a6cf3c39c/Simon-Wiffen-Create-Academy-Lisa-Dawson-0759%202%20(2).jpg",
+      "largeImage": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6OTk0MSwicHVyIjoiYmxvYl9pZCJ9fQ==--046d4cc0188e19a0856a77acd90abe42e6ca4c70/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOlsxNDQwLDgyMF0sInNhdmVyIjp7InF1YWxpdHkiOjEwMH19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--c10209b939761fec9d9159adc070036236e13d91/Simon-Wiffen-Create-Academy-Lisa-Dawson-0759%202%20(2).jpg",
+      "description": "<div>Filmed over a year, this immersive course follows Sissinghurst Castle's head gardener Troy Scott-Smith as he shares unprecedented access to one of world's most famous gardens. Troy shares expert techniques, planting insights, and practical advice to help you create beauty and structure year-round. From beds and borders to staking and succession, you'll learn how to work with annuals, biennials, and perennials to build dynamic displays. You'll explore seasonal gardening techniques and learn how to time your tasks and plant combinations to bring a touch of Sissinghurst into your own garden.</div>",
+      "shortSummary": "Troy shares expert techniques, planting insights, and practical advice to help you create beauty and structure year-round.",
+      "instructorByline": "Troy is a seasoned horticulturist, writer, designer and consultant, Troy is also a respected member of the RHS Floral Committee. ",
+      "landingPageDescription": "",
+      "seoDescription": "Throughout the course, you'll explore seasonal gardening techniques and learn how to time your tasks and plant combinations to achieve beauty and structure all year round.",
+      "link": "https://createacademy.com/courses/troy-smith-sissinghurst",
+      "releaseMonth": "September 2025",
+      "releaseDate": null,
+      "duration": 0,
+      "humanizedDuration": "00:00",
+      "outcomes": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "shortTitle": "Spaces with Purpose",
+      "courseName": "DESIGNING SPACES WITH PURPOSE",
+      "teacherName": "ALEX DAULEY",
+      "teacherAvatar": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTAyMjksInB1ciI6ImJsb2JfaWQifX0=--8465f3fd588bafccf8567bb1a689bebcb3f5bd1f/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzgwMCw4MDBdLCJzYXZlciI6eyJxdWFsaXR5IjoxMDB9fSwicHVyIjoidmFyaWF0aW9uIn19--dcfb00f7d2bab0d6f9c3c35cf54db06921dfa074/DP-108%205.png",
+      "image": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTAyMjcsInB1ciI6ImJsb2JfaWQifX0=--a93777dc63311f43e03605d8ac795f55dc5a8fde/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzgwMCw4MDBdLCJzYXZlciI6eyJxdWFsaXR5IjoxMDB9fSwicHVyIjoidmFyaWF0aW9uIn19--dcfb00f7d2bab0d6f9c3c35cf54db06921dfa074/DP-108%202.png",
+      "bannerImage": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTAxNjAsInB1ciI6ImJsb2JfaWQifX0=--a770c6080de93cdd0d93b5b3aed503acec414326/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOlsxNDQwLDgyMF0sInNhdmVyIjp7InF1YWxpdHkiOjEwMH19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--c10209b939761fec9d9159adc070036236e13d91/Interiors%20Hi%20Res_001.jpeg",
+      "bannerImageSmall": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTAxNjAsInB1ciI6ImJsb2JfaWQifX0=--a770c6080de93cdd0d93b5b3aed503acec414326/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOls3NjgsMjg4XSwic2F2ZXIiOnsicXVhbGl0eSI6MTAwfX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--5cd840c701545f49ced0c2e2ffa7e396970a7cf0/Interiors%20Hi%20Res_001.jpeg",
+      "bannerImageMedium": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTAxNjAsInB1ciI6ImJsb2JfaWQifX0=--a770c6080de93cdd0d93b5b3aed503acec414326/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOls5ODAsMzY3XSwic2F2ZXIiOnsicXVhbGl0eSI6MTAwfX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--c59adb1e7ceeff5911b2b2fc35d53d55c0cb60a1/Interiors%20Hi%20Res_001.jpeg",
+      "thumbnailImage": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTAxNTksInB1ciI6ImJsb2JfaWQifX0=--36fe19543534385341a3da3c54523727876ca7ed/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOlsxMDAsMTAwXSwic2F2ZXIiOnsicXVhbGl0eSI6MTAwfX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--198905f7be727fd0973a0155732d12ac13bac81c/ALEX%202.jpg",
+      "smallImage": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTAxNTksInB1ciI6ImJsb2JfaWQifX0=--36fe19543534385341a3da3c54523727876ca7ed/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOls1MzMsMzAwXSwic2F2ZXIiOnsicXVhbGl0eSI6MTAwfX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--e71c32d7bfdf873fe63d3a1a7562e83a6cf3c39c/ALEX%202.jpg",
+      "largeImage": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTAxNTksInB1ciI6ImJsb2JfaWQifX0=--36fe19543534385341a3da3c54523727876ca7ed/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOlsxNDQwLDgyMF0sInNhdmVyIjp7InF1YWxpdHkiOjEwMH19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--c10209b939761fec9d9159adc070036236e13d91/ALEX%202.jpg",
+      "description": "<div>This course, led by acclaimed interior designer Alex Dauley, offers a practical guide to interior design, showing how to create clean, modern spaces that work perfectly at whichever stage of life you may be. Filmed in Alex's studio and client homes, the course offers hands-on experience in creating beautiful, meaningful spaces. Focusing on functionality, emotion, texture, and timeless design, it's perfect for anyone looking to transform a space that truly reflects who they are and how they live.</div>",
+      "shortSummary": "Design clean, crisp spaces with purpose with Alex Dauley",
+      "instructorByline": "I believe every space has a story. We craft spaces that create experiences, memories, and moments that last a lifetime.",
+      "landingPageDescription": "",
+      "seoDescription": "Design clean, crisp spaces with purpose with Alex Dauley",
+      "link": "https://createacademy.com/courses/alex-dauley",
+      "releaseMonth": "October 2025",
+      "releaseDate": null,
+      "duration": 0,
+      "humanizedDuration": "00:00",
+      "outcomes": [
+        "",
+        "",
+        ""
+      ]
+    }
+  ],
+  "renewalDate": "13-Aug-2025"
+}
