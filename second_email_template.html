@@ -116,24 +116,24 @@
                                             <tr>
                                                 <td>
                                                     <div style="text-transform: uppercase; color: #18336C; font-size: 40px; font-family: Arial, Helvetica, sans-serif; font-weight: 700; letter-spacing: 9px; text-align: left; margin-bottom: 15px;">
-                                                        October 2025
+                                                        {{ courses[0].releaseMonth }}
                                                     </div>
                                                     <div style="color: #0E1E38; font-size: 20px; font-family: Arial, Helvetica, sans-serif; font-weight: 500; letter-spacing: 6px; word-wrap: break-word; margin-bottom: 15px;">
-                                                        course name
+                                                        {{ courses[0].courseName }}
                                                     </div>
                                                     <div style="word-wrap: break-word; margin-bottom: 25px;">
                                                         <span style="color: #0E1E38; font-size: 24px; font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif; font-style: italic;">
                                                             with &nbsp;
                                                         </span>
                                                         <span style="color: #0E1E38; font-size: 20px; font-family: Arial, Helvetica, sans-serif; letter-spacing: 5.25px;">
-                                                            teacher name
+                                                            {{ courses[0].teacherName }}
                                                         </span>
                                                     </div>
                                                     <div style="width: 100%; text-align: left;">
                                                         <table role="presentation" cellspacing="0" cellpadding="0" border="0" style="background-color: #0E1E38; border-radius: 15px; border: 1px solid #0E1E38;">
                                                             <tr>
                                                                 <td align="center" style="padding: 20px;">
-                                                                    <a href="{{ courses.latest.link }}" style="color: #ffffff; font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-weight: 500; letter-spacing: 3px; text-decoration: none; display: inline-block;">
+                                                                    <a href="{{ courses[0].link }}" style="color: #ffffff; font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-weight: 500; letter-spacing: 3px; text-decoration: none; display: inline-block;">
                                                                         EXPLORE COURSE
                                                                     </a>
                                                                 </td>
@@ -149,8 +149,8 @@
                                     <td style="width: 40%; padding-top: 30px; padding-left: 1px; padding-right: 30px; padding-bottom: 30px; vertical-align: top;">
                                         <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-radius: 15px; overflow: hidden;">
                                             <tr>
-                                                <td style="height: 304px; background-image: url('https://create-academy-prod.s3.eu-west-2.amazonaws.com/ksu48ob12zzscafdrdjriij2zxz5'); background-size: cover; background-position: center; background-repeat: no-repeat; background-color: #f0f0f0;">
-                                                    <a href="{{ courses.latest.link }}" style="display: block; width: 100%; height: 100%; text-decoration: none;">
+                                                <td style="height: 304px; background-image: url('{{ courses[0].teacherAvatar }}'); background-size: cover; background-position: center; background-repeat: no-repeat; background-color: #f0f0f0;">
+                                                    <a href="{{ courses[0].link }}" style="display: block; width: 100%; height: 100%; text-decoration: none;">
                                                     </a>
                                                 </td>
                                             </tr>
@@ -168,8 +168,8 @@
                                     <td style="width: 40%; padding-top: 30px; padding-left: 30px; padding-right: 1px; padding-bottom: 30px; vertical-align: top;">
                                         <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-radius: 15px; overflow: hidden;">
                                             <tr>
-                                                <td style="height: 304px; background-image: url('https://create-academy-prod.s3.eu-west-2.amazonaws.com/ksu48ob12zzscafdrdjriij2zxz5'); background-size: cover; background-position: center; background-repeat: no-repeat; background-color: #f0f0f0;">
-                                                    <a href="{{ courses.latest.link }}" style="display: block; width: 100%; height: 100%; text-decoration: none;">
+                                                <td style="height: 304px; background-image: url('{{ courses[1].teacherAvatar }}'); background-size: cover; background-position: center; background-repeat: no-repeat; background-color: #f0f0f0;">
+                                                    <a href="{{ courses[1].link }}" style="display: block; width: 100%; height: 100%; text-decoration: none;">
                                                     </a>
                                                 </td>
                                             </tr>
@@ -182,24 +182,24 @@
                                             <tr>
                                                 <td style="text-align: right;">
                                                     <div style="text-transform: uppercase; color: #18336C; font-size: 40px; font-family: Arial, Helvetica, sans-serif; font-weight: 700; letter-spacing: 9px; text-align: right; margin-bottom: 15px;">
-                                                        October 2025
+                                                        {{ courses[1].releaseMonth }}
                                                     </div>
                                                     <div style="color: #0E1E38; font-size: 20px; font-family: Arial, Helvetica, sans-serif; font-weight: 500; letter-spacing: 6px; word-wrap: break-word; margin-bottom: 15px;">
-                                                        course name
+                                                        {{ courses[1].courseName }}
                                                     </div>
                                                     <div style="word-wrap: break-word; margin-bottom: 25px;">
                                                         <span style="color: #0E1E38; font-size: 24px; font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif; font-style: italic;">
                                                             with &nbsp;
                                                         </span>
                                                         <span style="color: #0E1E38; font-size: 20px; font-family: Arial, Helvetica, sans-serif; letter-spacing: 5.25px;">
-                                                            teacher name
+                                                            {{ courses[1].teacherName }}
                                                         </span>
                                                     </div>
                                                     <div style="width: 100%; text-align: right;">
                                                         <table role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin-left: auto; background-color: #0E1E38; border-radius: 15px; border: 1px solid #0E1E38;">
                                                             <tr>
                                                                 <td align="center" style="padding: 20px;">
-                                                                    <a href="{{ courses.latest.link }}" style="color: #ffffff; font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-weight: 500; letter-spacing: 3px; text-decoration: none; display: inline-block;">
+                                                                    <a href="{{ courses[1].link }}" style="color: #ffffff; font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-weight: 500; letter-spacing: 3px; text-decoration: none; display: inline-block;">
                                                                         EXPLORE COURSE
                                                                     </a>
                                                                 </td>
@@ -224,24 +224,24 @@
                                             <tr>
                                                 <td>
                                                     <div style="text-transform: uppercase; color: #18336C; font-size: 40px; font-family: Arial, Helvetica, sans-serif; font-weight: 700; letter-spacing: 9px; text-align: left; margin-bottom: 15px;">
-                                                        October 2025
+                                                        {{ courses[2].releaseMonth }}
                                                     </div>
                                                     <div style="color: #0E1E38; font-size: 20px; font-family: Arial, Helvetica, sans-serif; font-weight: 500; letter-spacing: 6px; word-wrap: break-word; margin-bottom: 15px;">
-                                                        course name
+                                                        {{ courses[2].courseName }}
                                                     </div>
                                                     <div style="word-wrap: break-word; margin-bottom: 25px;">
                                                         <span style="color: #0E1E38; font-size: 24px; font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif; font-style: italic;">
                                                             with &nbsp;
                                                         </span>
                                                         <span style="color: #0E1E38; font-size: 20px; font-family: Arial, Helvetica, sans-serif; letter-spacing: 5.25px;">
-                                                            teacher name
+                                                            {{ courses[2].teacherName }}
                                                         </span>
                                                     </div>
                                                     <div style="width: 100%; text-align: left;">
                                                         <table role="presentation" cellspacing="0" cellpadding="0" border="0" style="background-color: #0E1E38; border-radius: 15px; border: 1px solid #0E1E38;">
                                                             <tr>
                                                                 <td align="center" style="padding: 20px;">
-                                                                    <a href="{{ courses.latest.link }}" style="color: #ffffff; font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-weight: 500; letter-spacing: 3px; text-decoration: none; display: inline-block;">
+                                                                    <a href="{{ courses[2].link }}" style="color: #ffffff; font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-weight: 500; letter-spacing: 3px; text-decoration: none; display: inline-block;">
                                                                         EXPLORE COURSE
                                                                     </a>
                                                                 </td>
@@ -257,8 +257,8 @@
                                     <td style="width: 40%; padding-top: 30px; padding-left: 1px; padding-right: 30px; padding-bottom: 30px; vertical-align: top;">
                                         <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-radius: 15px; overflow: hidden;">
                                             <tr>
-                                                <td style="height: 304px; background-image: url('https://create-academy-prod.s3.eu-west-2.amazonaws.com/ksu48ob12zzscafdrdjriij2zxz5'); background-size: cover; background-position: center; background-repeat: no-repeat; background-color: #f0f0f0;">
-                                                    <a href="{{ courses.latest.link }}" style="display: block; width: 100%; height: 100%; text-decoration: none;">
+                                                <td style="height: 304px; background-image: url('{{ courses[2].teacherAvatar }}'); background-size: cover; background-position: center; background-repeat: no-repeat; background-color: #f0f0f0;">
+                                                    <a href="{{ courses[2].link }}" style="display: block; width: 100%; height: 100%; text-decoration: none;">
                                                     </a>
                                                 </td>
                                             </tr>
@@ -276,8 +276,8 @@
                                     <td style="width: 40%; padding-top: 30px; padding-left: 30px; padding-right: 1px; padding-bottom: 30px; vertical-align: top;">
                                         <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-radius: 15px; overflow: hidden;">
                                             <tr>
-                                                <td style="height: 304px; background-image: url('https://create-academy-prod.s3.eu-west-2.amazonaws.com/ksu48ob12zzscafdrdjriij2zxz5'); background-size: cover; background-position: center; background-repeat: no-repeat; background-color: #f0f0f0;">
-                                                    <a href="{{ courses.latest.link }}" style="display: block; width: 100%; height: 100%; text-decoration: none;">
+                                                <td style="height: 304px; background-image: url('{{ courses[3].teacherAvatar }}'); background-size: cover; background-position: center; background-repeat: no-repeat; background-color: #f0f0f0;">
+                                                    <a href="{{ courses[3].link }}" style="display: block; width: 100%; height: 100%; text-decoration: none;">
                                                     </a>
                                                 </td>
                                             </tr>
@@ -290,24 +290,24 @@
                                             <tr>
                                                 <td style="text-align: right;">
                                                     <div style="text-transform: uppercase; color: #18336C; font-size: 40px; font-family: Arial, Helvetica, sans-serif; font-weight: 700; letter-spacing: 9px; text-align: right; margin-bottom: 15px;">
-                                                        October 2025
+                                                        {{ courses[3].releaseMonth }}
                                                     </div>
                                                     <div style="color: #0E1E38; font-size: 20px; font-family: Arial, Helvetica, sans-serif; font-weight: 500; letter-spacing: 6px; word-wrap: break-word; margin-bottom: 15px;">
-                                                        course name
+                                                        {{ courses[3].courseName }}
                                                     </div>
                                                     <div style="word-wrap: break-word; margin-bottom: 25px;">
                                                         <span style="color: #0E1E38; font-size: 24px; font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif; font-style: italic;">
                                                             with &nbsp;
                                                         </span>
                                                         <span style="color: #0E1E38; font-size: 20px; font-family: Arial, Helvetica, sans-serif; letter-spacing: 5.25px;">
-                                                            teacher name
+                                                            {{ courses[3].teacherName }}
                                                         </span>
                                                     </div>
                                                     <div style="width: 100%; text-align: right;">
                                                         <table role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin-left: auto; background-color: #0E1E38; border-radius: 15px; border: 1px solid #0E1E38;">
                                                             <tr>
                                                                 <td align="center" style="padding: 20px;">
-                                                                    <a href="{{ courses.latest.link }}" style="color: #ffffff; font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-weight: 500; letter-spacing: 3px; text-decoration: none; display: inline-block;">
+                                                                    <a href="{{ courses[3].link }}" style="color: #ffffff; font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-weight: 500; letter-spacing: 3px; text-decoration: none; display: inline-block;">
                                                                         EXPLORE COURSE
                                                                     </a>
                                                                 </td>
