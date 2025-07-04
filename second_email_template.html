@@ -111,7 +111,7 @@
                             <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #E8EBF0; border-radius: 15px; overflow: hidden;">
                                 <tr>
                                     <!-- Text Column (Left) -->
-                                    <td style="width: 60%; padding-top: 30px; padding-left: 30px; padding-right: 2px; padding-bottom: 30px; vertical-align: bottom;">
+                                    <td style="width: 60%; padding-top: 30px; padding-left: 30px; padding-right: 1px; padding-bottom: 30px; vertical-align: bottom;">
                                         <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
                                             <tr>
                                                 <td>
@@ -126,22 +126,24 @@
                                                             teacher name
                                                         </span>
                                                     </div>
-                                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" style="background-color: #0E1E38; border-radius: 15px; border: 1px solid #0E1E38;">
-                                                        <tr>
-                                                            <td align="center" style="padding: 20px;">
-                                                                <a href="{{ courses.latest.link }}" style="color: #ffffff; font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-weight: 500; letter-spacing: 3px; text-decoration: none; display: inline-block;">
-                                                                    EXPLORE COURSE
-                                                                </a>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
+                                                    <div style="width: 100%; text-align: left;">
+                                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" style="background-color: #0E1E38; border-radius: 15px; border: 1px solid #0E1E38;">
+                                                            <tr>
+                                                                <td align="center" style="padding: 20px;">
+                                                                    <a href="{{ courses.latest.link }}" style="color: #ffffff; font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-weight: 500; letter-spacing: 3px; text-decoration: none; display: inline-block;">
+                                                                        EXPLORE COURSE
+                                                                    </a>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </div>
                                                 </td>
                                             </tr>
                                         </table>
                                     </td>
 
                                     <!-- Image Column (Right) -->
-                                    <td style="width: 40%; padding-top: 30px; padding-left: 2px; padding-right: 30px; padding-bottom: 30px; vertical-align: top;">
+                                    <td style="width: 40%; padding-top: 30px; padding-left: 1px; padding-right: 30px; padding-bottom: 30px; vertical-align: top;">
                                         <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-radius: 15px; overflow: hidden;">
                                             <tr>
                                                 <td style="height: 304px; background-image: url('https://create-academy-prod.s3.eu-west-2.amazonaws.com/ksu48ob12zzscafdrdjriij2zxz5'); background-size: cover; background-position: center; background-repeat: no-repeat; background-color: #f0f0f0;">
@@ -159,8 +161,59 @@
                         <td style="background-color: #ffffff; padding: 30px;">
                             <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #E8EBF0; border-radius: 15px; overflow: hidden;">
                                 <tr>
+                                    <!-- Image Column (Left) -->
+                                    <td style="width: 40%; padding-top: 30px; padding-left: 30px; padding-right: 1px; padding-bottom: 30px; vertical-align: top;">
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-radius: 15px; overflow: hidden;">
+                                            <tr>
+                                                <td style="height: 304px; background-image: url('https://create-academy-prod.s3.eu-west-2.amazonaws.com/ksu48ob12zzscafdrdjriij2zxz5'); background-size: cover; background-position: center; background-repeat: no-repeat; background-color: #f0f0f0;">
+                                                    <a href="{{ courses.latest.link }}" style="display: block; width: 100%; height: 100%; text-decoration: none;">
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+
+                                    <!-- Text Column (Right) -->
+                                    <td style="width: 60%; padding-top: 30px; padding-left: 1px; padding-right: 30px; padding-bottom: 30px; vertical-align: bottom;">
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                            <tr>
+                                                <td style="text-align: right;">
+                                                    <div style="color: #0E1E38; font-size: 20px; font-family: Arial, Helvetica, sans-serif; font-weight: 500; letter-spacing: 6px; word-wrap: break-word; margin-bottom: 15px;">
+                                                        course name
+                                                    </div>
+                                                    <div style="word-wrap: break-word; margin-bottom: 25px;">
+                                                        <span style="color: #0E1E38; font-size: 24px; font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif; font-style: italic;">
+                                                            with &nbsp;
+                                                        </span>
+                                                        <span style="color: #0E1E38; font-size: 20px; font-family: Arial, Helvetica, sans-serif; letter-spacing: 5.25px;">
+                                                            teacher name
+                                                        </span>
+                                                    </div>
+                                                    <div style="width: 100%; text-align: right;">
+                                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin-left: auto; background-color: #0E1E38; border-radius: 15px; border: 1px solid #0E1E38;">
+                                                            <tr>
+                                                                <td align="center" style="padding: 20px;">
+                                                                    <a href="{{ courses.latest.link }}" style="color: #ffffff; font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-weight: 500; letter-spacing: 3px; text-decoration: none; display: inline-block;">
+                                                                        EXPLORE COURSE
+                                                                    </a>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #ffffff; padding: 30px;">
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #E8EBF0; border-radius: 15px; overflow: hidden;">
+                                <tr>
                                     <!-- Text Column (Left) -->
-                                    <td style="width: 60%; padding-top: 30px; padding-left: 30px; padding-right: 2px; padding-bottom: 30px; vertical-align: bottom;">
+                                    <td style="width: 60%; padding-top: 30px; padding-left: 30px; padding-right: 1px; padding-bottom: 30px; vertical-align: bottom;">
                                         <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
                                             <tr>
                                                 <td>
@@ -175,22 +228,24 @@
                                                             teacher name
                                                         </span>
                                                     </div>
-                                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" style="background-color: #0E1E38; border-radius: 15px; border: 1px solid #0E1E38;">
-                                                        <tr>
-                                                            <td align="center" style="padding: 20px;">
-                                                                <a href="{{ courses.latest.link }}" style="color: #ffffff; font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-weight: 500; letter-spacing: 3px; text-decoration: none; display: inline-block;">
-                                                                    EXPLORE COURSE
-                                                                </a>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
+                                                    <div style="width: 100%; text-align: left;">
+                                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" style="background-color: #0E1E38; border-radius: 15px; border: 1px solid #0E1E38;">
+                                                            <tr>
+                                                                <td align="center" style="padding: 20px;">
+                                                                    <a href="{{ courses.latest.link }}" style="color: #ffffff; font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-weight: 500; letter-spacing: 3px; text-decoration: none; display: inline-block;">
+                                                                        EXPLORE COURSE
+                                                                    </a>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </div>
                                                 </td>
                                             </tr>
                                         </table>
                                     </td>
 
                                     <!-- Image Column (Right) -->
-                                    <td style="width: 40%; padding-top: 30px; padding-left: 2px; padding-right: 30px; padding-bottom: 30px; vertical-align: top;">
+                                    <td style="width: 40%; padding-top: 30px; padding-left: 1px; padding-right: 30px; padding-bottom: 30px; vertical-align: top;">
                                         <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-radius: 15px; overflow: hidden;">
                                             <tr>
                                                 <td style="height: 304px; background-image: url('https://create-academy-prod.s3.eu-west-2.amazonaws.com/ksu48ob12zzscafdrdjriij2zxz5'); background-size: cover; background-position: center; background-repeat: no-repeat; background-color: #f0f0f0;">
@@ -208,11 +263,23 @@
                         <td style="background-color: #ffffff; padding: 30px;">
                             <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #E8EBF0; border-radius: 15px; overflow: hidden;">
                                 <tr>
-                                    <!-- Text Column (Left) -->
-                                    <td style="width: 60%; padding-top: 30px; padding-left: 30px; padding-right: 2px; padding-bottom: 30px; vertical-align: bottom;">
+                                    <!-- Image Column (Left) -->
+                                    <td style="width: 40%; padding-top: 30px; padding-left: 30px; padding-right: 1px; padding-bottom: 30px; vertical-align: top;">
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-radius: 15px; overflow: hidden;">
+                                            <tr>
+                                                <td style="height: 304px; background-image: url('https://create-academy-prod.s3.eu-west-2.amazonaws.com/ksu48ob12zzscafdrdjriij2zxz5'); background-size: cover; background-position: center; background-repeat: no-repeat; background-color: #f0f0f0;">
+                                                    <a href="{{ courses.latest.link }}" style="display: block; width: 100%; height: 100%; text-decoration: none;">
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+
+                                    <!-- Text Column (Right) -->
+                                    <td style="width: 60%; padding-top: 30px; padding-left: 1px; padding-right: 30px; padding-bottom: 30px; vertical-align: bottom;">
                                         <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
                                             <tr>
-                                                <td>
+                                                <td style="text-align: right;">
                                                     <div style="color: #0E1E38; font-size: 20px; font-family: Arial, Helvetica, sans-serif; font-weight: 500; letter-spacing: 6px; word-wrap: break-word; margin-bottom: 15px;">
                                                         course name
                                                     </div>
@@ -224,76 +291,17 @@
                                                             teacher name
                                                         </span>
                                                     </div>
-                                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" style="background-color: #0E1E38; border-radius: 15px; border: 1px solid #0E1E38;">
-                                                        <tr>
-                                                            <td align="center" style="padding: 20px;">
-                                                                <a href="{{ courses.latest.link }}" style="color: #ffffff; font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-weight: 500; letter-spacing: 3px; text-decoration: none; display: inline-block;">
-                                                                    EXPLORE COURSE
-                                                                </a>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </td>
-
-                                    <!-- Image Column (Right) -->
-                                    <td style="width: 40%; padding-top: 30px; padding-left: 2px; padding-right: 30px; padding-bottom: 30px; vertical-align: top;">
-                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-radius: 15px; overflow: hidden;">
-                                            <tr>
-                                                <td style="height: 304px; background-image: url('https://create-academy-prod.s3.eu-west-2.amazonaws.com/ksu48ob12zzscafdrdjriij2zxz5'); background-size: cover; background-position: center; background-repeat: no-repeat; background-color: #f0f0f0;">
-                                                    <a href="{{ courses.latest.link }}" style="display: block; width: 100%; height: 100%; text-decoration: none;">
-                                                    </a>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="background-color: #ffffff; padding: 30px;">
-                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #E8EBF0; border-radius: 15px; overflow: hidden;">
-                                <tr>
-                                    <!-- Text Column (Left) -->
-                                    <td style="width: 60%; padding-top: 30px; padding-left: 30px; padding-right: 2px; padding-bottom: 30px; vertical-align: bottom;">
-                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                                            <tr>
-                                                <td>
-                                                    <div style="color: #0E1E38; font-size: 20px; font-family: Arial, Helvetica, sans-serif; font-weight: 500; letter-spacing: 6px; word-wrap: break-word; margin-bottom: 15px;">
-                                                        course name
+                                                    <div style="width: 100%; text-align: right;">
+                                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin-left: auto; background-color: #0E1E38; border-radius: 15px; border: 1px solid #0E1E38;">
+                                                            <tr>
+                                                                <td align="center" style="padding: 20px;">
+                                                                    <a href="{{ courses.latest.link }}" style="color: #ffffff; font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-weight: 500; letter-spacing: 3px; text-decoration: none; display: inline-block;">
+                                                                        EXPLORE COURSE
+                                                                    </a>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
                                                     </div>
-                                                    <div style="word-wrap: break-word; margin-bottom: 25px;">
-                                                        <span style="color: #0E1E38; font-size: 24px; font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif; font-style: italic;">
-                                                            with &nbsp;
-                                                        </span>
-                                                        <span style="color: #0E1E38; font-size: 20px; font-family: Arial, Helvetica, sans-serif; letter-spacing: 5.25px;">
-                                                            teacher name
-                                                        </span>
-                                                    </div>
-                                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" style="background-color: #0E1E38; border-radius: 15px; border: 1px solid #0E1E38;">
-                                                        <tr>
-                                                            <td align="center" style="padding: 20px;">
-                                                                <a href="{{ courses.latest.link }}" style="color: #ffffff; font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-weight: 500; letter-spacing: 3px; text-decoration: none; display: inline-block;">
-                                                                    EXPLORE COURSE
-                                                                </a>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </td>
-
-                                    <!-- Image Column (Right) -->
-                                    <td style="width: 40%; padding-top: 30px; padding-left: 2px; padding-right: 30px; padding-bottom: 30px; vertical-align: top;">
-                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-radius: 15px; overflow: hidden;">
-                                            <tr>
-                                                <td style="height: 304px; background-image: url('https://create-academy-prod.s3.eu-west-2.amazonaws.com/ksu48ob12zzscafdrdjriij2zxz5'); background-size: cover; background-position: center; background-repeat: no-repeat; background-color: #f0f0f0;">
-                                                    <a href="{{ courses.latest.link }}" style="display: block; width: 100%; height: 100%; text-decoration: none;">
-                                                    </a>
                                                 </td>
                                             </tr>
                                         </table>
