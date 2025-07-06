@@ -74,7 +74,7 @@
                                 </tr>
                                 <tr>
                                     <td align="center" style="color: black; font-size: 14px; font-family: Arial, Helvetica, sans-serif; font-weight: 100; line-height: 26px; letter-spacing: 1px; padding: 0 20px;" class="mobile-hero-text">
-                                        We hope you’ve been enjoying your all-access subscription to Create Academy. Here’s what we’ve got coming up over the next few months:
+                                        We hope you've been enjoying your all-access subscription to Create Academy. Here's what we've got coming up over the next few months:
                                     </td>
                                 </tr>
                             </table>
@@ -94,16 +94,17 @@
                         </td>
                     </tr>
                     <!-- Content Blocks Section -->
+                    {{#each courses}}
                     <tr>
                         <td style="background-color: #ffffff; padding: 30px;">
-                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin-bottom: 30px;">
                                 <!-- Image Holder -->
                                 <tr>
                                     <td style="padding-bottom: 30px;">
                                         <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-radius: 15px; overflow: hidden;">
                                             <tr>
-                                                <td style="height: 304px; background-image: url('{{ courses.selected.image }}'); background-size: cover; background-position: center; background-repeat: no-repeat; background-color: #f0f0f0;">
-                                                    <a href="{{ courses.selected.link }}" style="display: block; width: 100%; height: 100%; text-decoration: none;">
+                                                <td style="height: 304px; background-image: url('{{ teacherAvatar }}'); background-size: cover; background-position: center; background-repeat: no-repeat; background-color: #f0f0f0;">
+                                                    <a href="{{ link }}" style="display: block; width: 100%; height: 100%; text-decoration: none;">
                                                         <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" height="100%">
                                                             <tr>
                                                                 <td style="vertical-align: top; padding: 20px 20px 0 0;">
@@ -115,7 +116,7 @@
                                                                                     <tr>
                                                                                         <td style="background-color: white; border-radius: 2px; padding: 7px 25px;">
                                                                                             <div style="color: #673B30; font-size: 14px; font-family: Arial, Helvetica, sans-serif; font-weight: 400; text-transform: uppercase; line-height: 21px; letter-spacing: 2.7px; text-align: center; word-wrap: break-word;">
-                                                                                                Released in month
+                                                                                                Released in {{ releaseMonth }}
                                                                                             </div>
                                                                                         </td>
                                                                                     </tr>
@@ -140,14 +141,14 @@
                                             <tr>
                                                 <td style="padding: 0 20px;">
                                                     <div style="color: #0E1E38; font-size: 20px; font-family: Arial, Helvetica, sans-serif; font-weight: 500; letter-spacing: 6px; word-wrap: break-word; margin-bottom: 10px;">
-                                                        {{ courses.selected.courseName }}
+                                                        {{ courseName }}
                                                     </div>
                                                     <div style="word-wrap: break-word;">
                                                         <span style="color: #0E1E38; font-size: 24px; font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif; font-style: italic;">
                                                             with &nbsp;
                                                         </span>
                                                         <span style="color: #0E1E38; font-size: 20px; font-family: Arial, Helvetica, sans-serif; letter-spacing: 5.25px;">
-                                                            {{ courses.selected.teacherName }}
+                                                            {{ teacherName }}
                                                         </span>
                                                     </div>
                                                 </td>
@@ -162,7 +163,7 @@
                                         <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #0E1E38; border-radius: 15px; border: 1px solid #0E1E38;">
                                             <tr>
                                                 <td align="center" style="padding: 20px;">
-                                                    <a href="{{ courses.selected.link }}" style="color: #ffffff; font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-weight: 500; letter-spacing: 3px; text-decoration: none; text-transform: uppercase; display: inline-block;">
+                                                    <a href="{{ link }}" style="color: #ffffff; font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-weight: 500; letter-spacing: 3px; text-decoration: none; text-transform: uppercase; display: inline-block;">
                                                         Explore course
                                                     </a>
                                                 </td>
@@ -173,17 +174,18 @@
                             </table>
                         </td>
                     </tr>
+                    {{/each}}
                     <tr>
-                        <td style="background-color: #ffffff; padding: 60px 40px;">
+                        <td style="background-color: #ffffff; padding: 60px 40px; padding-top: 0px;">
                             <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
                                 <tr>
                                     <td align="center" style="color: black; font-size: 14px; font-family: Arial, Helvetica, sans-serif; font-weight: 100; line-height: 26px; letter-spacing: 1px; padding-bottom: 20px;" class="mobile-hero-text">
-                                        Your subscription will automatically renew on <Insert Renewal Date> giving you access to all live courses and new releases for another 12 months. To make any changes to your account, please visit your <a href="https://app.createacademy.com/profile"></a>member profile</a>.
+                                        Your subscription will automatically renew on {{ renewalDate }} giving you access to all live courses and new releases for another 12 months. To make any changes to your account, please visit your <a href="https://app.createacademy.com/profile"></a>member profile</a>.
                                     </td>
                                 </tr>
                                 <tr>
                                     <td align="center" style="color: black; font-size: 14px; font-family: Arial, Helvetica, sans-serif; font-weight: 100; line-height: 26px; letter-spacing: 1px; padding: 0 20px;" class="mobile-hero-text">
-                                        We’re also extending your introductory offer so you can enjoy your second year of learning for the same great price. We look forward to another year of creative learning with you.
+                                        We're also extending your introductory offer so you can enjoy your second year of learning for the same great price. We look forward to another year of creative learning with you.
                                     </td>
                                 </tr>
                                 <!-- Button -->
@@ -192,7 +194,7 @@
                                         <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #0E1E38; border-radius: 15px; border: 1px solid #0E1E38;">
                                             <tr>
                                                 <td align="center" style="padding: 20px;">
-                                                    <a href="{{ courses.selected.link }}" style="color: #ffffff; font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-weight: 500; letter-spacing: 3px; text-decoration: none; display: inline-block;">
+                                                    <a href="https://app.createacademy.com/" style="color: #ffffff; font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-weight: 500; letter-spacing: 3px; text-decoration: none; display: inline-block;">
                                                         Keep Learning
                                                     </a>
                                                 </td>
