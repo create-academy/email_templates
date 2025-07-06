@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Academy Email</title>
+    <style>
+        /* Reset styles for email clients */
+        body, table, td, p, a, li, blockquote {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+        table, td {
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+        img {
+            -ms-interpolation-mode: bicubic;
+            border: 0;
+            height: auto;
+            line-height: 100%;
+            outline: none;
+            text-decoration: none;
+        }
+
+        /* Responsive styles */
+    </style>
+</head>
+<body style="margin: 0; padding: 0; background-color: #E8EBF0; font-family: Arial, sans-serif;">
+    <!-- Main Container -->
+    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #E8EBF0;">
+        <tr>
+            <td align="center" style="padding: 20px;">
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" class="container" style="width: 100%; max-width: 600px; background-color: white;">
+                    <!-- Logo Header Section -->
+                    <tr>
+                        <td align="center" class="mobile-padding" style="padding: 40px 20px;">
+                            <img src="https://create-academy-prod.s3.amazonaws.com/email_templates/ca_logo.png" alt="Create Academy Logo" style="width: 300px; height: auto; display: block;" class="mobile-full">
+                        </td>
+                    </tr>
+
+                    <!-- Hero Banner Section -->
+                    <tr>
+                        <td style="padding: 0;">
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                <tr>
+                                    <td style="height: 550px; background-image: url('https://create-academy-prod.s3.amazonaws.com/email_templates/hill.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; background-color: #f0f0f0;">
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" height="100%">
+                                            <tr>
+                                                <td align="center" style="padding: 60px 20px 20px 20px; vertical-align: top;">
+                                                    <div style="color: white; font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-weight: 200; text-transform: uppercase; letter-spacing: 5px; margin-bottom: 15px;" class="mobile-hero-text">
+                                                        YOUR NEXT CHAPTER IN
+                                                    </div>
+                                                    <div style="color: white; font-size: 60px; font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif; font-style: italic; font-weight: 500; margin-bottom: 30px; letter-spacing: -3px;" class="mobile-hero-large">
+                                                        creative learning
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!-- "We noticed you've been away" Section -->
+                    <tr>
+                        <td style="background-color: #ffffff; padding: 60px 40px;">
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                <tr>
+                                    <td align="center" style="color: black; font-size: 14px; font-family: Arial, Helvetica, sans-serif; font-weight: 100; line-height: 26px; letter-spacing: 1px; padding-bottom: 20px;" class="mobile-hero-text">
+                                        Hi, {{ user.account.name }}
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="color: black; font-size: 14px; font-family: Arial, Helvetica, sans-serif; font-weight: 100; line-height: 26px; letter-spacing: 1px; padding: 0 20px;" class="mobile-hero-text">
+                                        We hope you’ve been enjoying your all-access subscription to Create Academy. Here’s what we’ve got coming up over the next few months:
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!-- "What's new?" Section -->
+                    <tr>
+                        <td style="background-color: #ffffff; padding-top: 0px; padding-bottom: 20px; padding-left: 40px; padding-right: 40px;">
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                <tr>
+                                    <td align="center" style="color: #0E1E38; font-size: 50px; font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif; font-style: italic; font-weight: 500; line-height: 68px; padding: 0 20px; letter-spacing: -3px;" class="mobile-hero-large">
+                                        Coming up...
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- Content Blocks Section -->
+                    <tr>
+                        <td style="background-color: #ffffff; padding: 30px;">
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                <!-- Image Holder -->
+                                <tr>
+                                    <td style="padding-bottom: 30px;">
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-radius: 15px; overflow: hidden;">
+                                            <tr>
+                                                <td style="height: 304px; background-image: url('{{ courses.selected.image }}'); background-size: cover; background-position: center; background-repeat: no-repeat; background-color: #f0f0f0;">
+                                                    <a href="{{ courses.selected.link }}" style="display: block; width: 100%; height: 100%; text-decoration: none;">
+                                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" height="100%">
+                                                            <tr>
+                                                                <td style="vertical-align: top; padding: 20px 20px 0 0;">
+                                                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                                                        <tr>
+                                                                            <td style="text-align: right;">
+                                                                                <!-- Badge Container -->
+                                                                                <table role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin: 0; display: inline-block;">
+                                                                                    <tr>
+                                                                                        <td style="background-color: white; border-radius: 2px; padding: 7px 25px;">
+                                                                                            <div style="color: #673B30; font-size: 14px; font-family: Arial, Helvetica, sans-serif; font-weight: 400; text-transform: uppercase; line-height: 21px; letter-spacing: 2.7px; text-align: center; word-wrap: break-word;">
+                                                                                                Released in month
+                                                                                            </div>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+
+                                <!-- Course Name and Instructor Text -->
+                                <tr>
+                                    <td style="padding-bottom: 30px;">
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                            <tr>
+                                                <td style="padding: 0 20px;">
+                                                    <div style="color: #0E1E38; font-size: 20px; font-family: Arial, Helvetica, sans-serif; font-weight: 500; letter-spacing: 6px; word-wrap: break-word; margin-bottom: 10px;">
+                                                        {{ courses.selected.courseName }}
+                                                    </div>
+                                                    <div style="word-wrap: break-word;">
+                                                        <span style="color: #0E1E38; font-size: 24px; font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif; font-style: italic;">
+                                                            with &nbsp;
+                                                        </span>
+                                                        <span style="color: #0E1E38; font-size: 20px; font-family: Arial, Helvetica, sans-serif; letter-spacing: 5.25px;">
+                                                            {{ courses.selected.teacherName }}
+                                                        </span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+
+                                <!-- Button -->
+                                <tr>
+                                    <td>
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #0E1E38; border-radius: 15px; border: 1px solid #0E1E38;">
+                                            <tr>
+                                                <td align="center" style="padding: 20px;">
+                                                    <a href="{{ courses.selected.link }}" style="color: #ffffff; font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-weight: 500; letter-spacing: 3px; text-decoration: none; text-transform: uppercase; display: inline-block;">
+                                                        Explore course
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #ffffff; padding: 60px 40px;">
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                <tr>
+                                    <td align="center" style="color: black; font-size: 14px; font-family: Arial, Helvetica, sans-serif; font-weight: 100; line-height: 26px; letter-spacing: 1px; padding-bottom: 20px;" class="mobile-hero-text">
+                                        Your subscription will automatically renew on <Insert Renewal Date> giving you access to all live courses and new releases for another 12 months. To make any changes to your account, please visit your <a href="https://app.createacademy.com/profile"></a>member profile</a>.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="color: black; font-size: 14px; font-family: Arial, Helvetica, sans-serif; font-weight: 100; line-height: 26px; letter-spacing: 1px; padding: 0 20px;" class="mobile-hero-text">
+                                        We’re also extending your introductory offer so you can enjoy your second year of learning for the same great price. We look forward to another year of creative learning with you.
+                                    </td>
+                                </tr>
+                                <!-- Button -->
+                                <tr>
+                                    <td style="padding: 50px;">
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #0E1E38; border-radius: 15px; border: 1px solid #0E1E38;">
+                                            <tr>
+                                                <td align="center" style="padding: 20px;">
+                                                    <a href="{{ courses.selected.link }}" style="color: #ffffff; font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-weight: 500; letter-spacing: 3px; text-decoration: none; display: inline-block;">
+                                                        Keep Learning
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- Footer Section -->
+                    <tr>
+                        <td style="background-color: #0E1E38; padding: 40px 20px;">
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                <tr>
+                                    <td align="center" style="padding-bottom: 30px;">
+                                        <img src="https://create-academy-prod.s3.amazonaws.com/email_templates/trustpilot.png" alt="Trustpilot" style="width: auto; height: auto; display: block; max-width: 100%;">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="padding-bottom: 30px;">
+                                        <a href="https://www.instagram.com/createacademyofficial" target="_blank" style="text-decoration: none;">
+                                            <img src="https://create-academy-prod.s3.amazonaws.com/email_templates/share.png" alt="Make with create" style="width: auto; height: auto; display: block; max-width: 100%;">
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="padding-bottom: 30px;">
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin: 0 auto;">
+                                            <tr>
+                                                <td style="padding: 0 15px;">
+                                                    <a href="https://www.facebook.com/createacademyofficial" target="_blank" style="text-decoration: none;">
+                                                        <img src="https://create-academy-prod.s3.amazonaws.com/email_templates/fb.png" alt="Facebook" style="width: 30px; height: auto; display: block;">
+                                                    </a>
+                                                </td>
+                                                <td style="padding: 0 15px;">
+                                                    <a href="https://www.instagram.com/createacademyofficial" target="_blank" style="text-decoration: none;">
+                                                        <img src="https://create-academy-prod.s3.amazonaws.com/email_templates/insta.png" alt="Instagram" style="width: 30px; height: auto; display: block;">
+                                                    </a>
+                                                </td>
+                                                <td style="padding: 0 15px;">
+                                                    <a href="https://www.pinterest.co.uk/CreateAcademyOfficial" target="_blank" style="text-decoration: none;">
+                                                        <img src="https://create-academy-prod.s3.amazonaws.com/email_templates/pintrest.png" alt="Pinterest" style="width: 30px; height: auto; display: block;">
+                                                    </a>
+                                                </td>
+                                                <td style="padding: 0 15px;">
+                                                    <a href="https://www.youtube.com/c/CreateAcademy" target="_blank" style="text-decoration: none;">
+                                                        <img src="https://create-academy-prod.s3.amazonaws.com/email_templates/youtube.png" alt="YouTube" style="width: 30px; height: auto; display: block;">
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="padding-bottom: 20px;">
+                                        <div style="color: white; font-size: 14px; font-family: Arial, Helvetica, sans-serif; line-height: 20px;">
+                                            Need help? <a href="https://app.createacademy.com/contact-us" style="color: white; text-decoration: underline;">Click here to contact us</a>.
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center">
+                                        <div style="color: white; font-size: 14px; font-family: Arial, Helvetica, sans-serif; line-height: 20px;">
+                                            Create Academy, 90 Wallis Rd, London, E9 5LN, United Kingdom
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

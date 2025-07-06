@@ -1,4 +1,11 @@
 {
+  "user": {
+    "id": 123,
+    "email": "user@example.com",
+    "account": {
+      "name": "John Doe"
+    }
+  },
   "courses": [
     {
       "shortTitle": "Gardening at Sissinghurst",
@@ -18,6 +25,34 @@
       "landingPageDescription": "",
       "seoDescription": "Throughout the course, you'll explore seasonal gardening techniques and learn how to time your tasks and plant combinations to achieve beauty and structure all year round.",
       "link": "https://createacademy.com/courses/troy-smith-sissinghurst",
+      "releaseMonth": "August 2025",
+      "releaseDate": null,
+      "duration": 0,
+      "humanizedDuration": "00:00",
+      "outcomes": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "shortTitle": "Spaces with Purpose",
+      "courseName": "DESIGNING SPACES WITH PURPOSE",
+      "teacherName": "ALEX DAULEY",
+      "teacherAvatar": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTAxNTMsInB1ciI6ImJsb2JfaWQifX0=--7478e13572b5b45c5e567d7d0664b14d573150ff/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOls4MDAsNDUwXSwic2F2ZXIiOnsicXVhbGl0eSI6MTAwfX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--b3cae65cada3c8f9cb0985a97fd16e9de215f4c0/ALEX%202.jpg",
+      "image": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTAyMjcsInB1ciI6ImJsb2JfaWQifX0=--a93777dc63311f43e03605d8ac795f55dc5a8fde/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzgwMCw4MDBdLCJzYXZlciI6eyJxdWFsaXR5IjoxMDB9fSwicHVyIjoidmFyaWF0aW9uIn19--dcfb00f7d2bab0d6f9c3c35cf54db06921dfa074/DP-108%202.png",
+      "bannerImage": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTAxNjAsInB1ciI6ImJsb2JfaWQifX0=--a770c6080de93cdd0d93b5b3aed503acec414326/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOlsxNDQwLDgyMF0sInNhdmVyIjp7InF1YWxpdHkiOjEwMH19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--c10209b939761fec9d9159adc070036236e13d91/Interiors%20Hi%20Res_001.jpeg",
+      "bannerImageSmall": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTAxNjAsInB1ciI6ImJsb2JfaWQifX0=--a770c6080de93cdd0d93b5b3aed503acec414326/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOls3NjgsMjg4XSwic2F2ZXIiOnsicXVhbGl0eSI6MTAwfX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--5cd840c701545f49ced0c2e2ffa7e396970a7cf0/Interiors%20Hi%20Res_001.jpeg",
+      "bannerImageMedium": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTAxNjAsInB1ciI6ImJsb2JfaWQifX0=--a770c6080de93cdd0d93b5b3aed503acec414326/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOls5ODAsMzY3XSwic2F2ZXIiOnsicXVhbGl0eSI6MTAwfX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--c59adb1e7ceeff5911b2b2fc35d53d55c0cb60a1/Interiors%20Hi%20Res_001.jpeg",
+      "thumbnailImage": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTAxNTksInB1ciI6ImJsb2JfaWQifX0=--36fe19543534385341a3da3c54523727876ca7ed/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOlsxMDAsMTAwXSwic2F2ZXIiOnsicXVhbGl0eSI6MTAwfX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--198905f7be727fd0973a0155732d12ac13bac81c/ALEX%202.jpg",
+      "smallImage": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTAxNTksInB1ciI6ImJsb2JfaWQifX0=--36fe19543534385341a3da3c54523727876ca7ed/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOls1MzMsMzAwXSwic2F2ZXIiOnsicXVhbGl0eSI6MTAwfX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--e71c32d7bfdf873fe63d3a1a7562e83a6cf3c39c/ALEX%202.jpg",
+      "largeImage": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTAxNTksInB1ciI6ImJsb2JfaWQifX0=--36fe19543534385341a3da3c54523727876ca7ed/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOlsxNDQwLDgyMF0sInNhdmVyIjp7InF1YWxpdHkiOjEwMH19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--c10209b939761fec9d9159adc070036236e13d91/ALEX%202.jpg",
+      "description": "<div>This course, led by acclaimed interior designer Alex Dauley, offers a practical guide to interior design, showing how to create clean, modern spaces that work perfectly at whichever stage of life you may be. Filmed in Alex's studio and client homes, the course offers hands-on experience in creating beautiful, meaningful spaces. Focusing on functionality, emotion, texture, and timeless design, it's perfect for anyone looking to transform a space that truly reflects who they are and how they live.</div>",
+      "shortSummary": "Design clean, crisp spaces with purpose with Alex Dauley",
+      "instructorByline": "I believe every space has a story. We craft spaces that create experiences, memories, and moments that last a lifetime.",
+      "landingPageDescription": "",
+      "seoDescription": "Design clean, crisp spaces with purpose with Alex Dauley",
+      "link": "https://createacademy.com/courses/alex-dauley",
       "releaseMonth": "September 2025",
       "releaseDate": null,
       "duration": 0,
@@ -46,7 +81,7 @@
       "landingPageDescription": "",
       "seoDescription": "Design clean, crisp spaces with purpose with Alex Dauley",
       "link": "https://createacademy.com/courses/alex-dauley",
-      "releaseMonth": "October 2025",
+      "releaseMonth": "November 2025",
       "releaseDate": null,
       "duration": 0,
       "humanizedDuration": "00:00",
@@ -74,35 +109,7 @@
       "landingPageDescription": "",
       "seoDescription": "Design clean, crisp spaces with purpose with Alex Dauley",
       "link": "https://createacademy.com/courses/alex-dauley",
-      "releaseMonth": "October 2025",
-      "releaseDate": null,
-      "duration": 0,
-      "humanizedDuration": "00:00",
-      "outcomes": [
-        "",
-        "",
-        ""
-      ]
-    },
-    {
-      "shortTitle": "Spaces with Purpose",
-      "courseName": "DESIGNING SPACES WITH PURPOSE",
-      "teacherName": "ALEX DAULEY",
-      "teacherAvatar": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTAxNTMsInB1ciI6ImJsb2JfaWQifX0=--7478e13572b5b45c5e567d7d0664b14d573150ff/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOls4MDAsNDUwXSwic2F2ZXIiOnsicXVhbGl0eSI6MTAwfX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--b3cae65cada3c8f9cb0985a97fd16e9de215f4c0/ALEX%202.jpg",
-      "image": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTAyMjcsInB1ciI6ImJsb2JfaWQifX0=--a93777dc63311f43e03605d8ac795f55dc5a8fde/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzgwMCw4MDBdLCJzYXZlciI6eyJxdWFsaXR5IjoxMDB9fSwicHVyIjoidmFyaWF0aW9uIn19--dcfb00f7d2bab0d6f9c3c35cf54db06921dfa074/DP-108%202.png",
-      "bannerImage": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTAxNjAsInB1ciI6ImJsb2JfaWQifX0=--a770c6080de93cdd0d93b5b3aed503acec414326/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOlsxNDQwLDgyMF0sInNhdmVyIjp7InF1YWxpdHkiOjEwMH19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--c10209b939761fec9d9159adc070036236e13d91/Interiors%20Hi%20Res_001.jpeg",
-      "bannerImageSmall": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTAxNjAsInB1ciI6ImJsb2JfaWQifX0=--a770c6080de93cdd0d93b5b3aed503acec414326/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOls3NjgsMjg4XSwic2F2ZXIiOnsicXVhbGl0eSI6MTAwfX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--5cd840c701545f49ced0c2e2ffa7e396970a7cf0/Interiors%20Hi%20Res_001.jpeg",
-      "bannerImageMedium": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTAxNjAsInB1ciI6ImJsb2JfaWQifX0=--a770c6080de93cdd0d93b5b3aed503acec414326/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOls5ODAsMzY3XSwic2F2ZXIiOnsicXVhbGl0eSI6MTAwfX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--c59adb1e7ceeff5911b2b2fc35d53d55c0cb60a1/Interiors%20Hi%20Res_001.jpeg",
-      "thumbnailImage": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTAxNTksInB1ciI6ImJsb2JfaWQifX0=--36fe19543534385341a3da3c54523727876ca7ed/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOlsxMDAsMTAwXSwic2F2ZXIiOnsicXVhbGl0eSI6MTAwfX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--198905f7be727fd0973a0155732d12ac13bac81c/ALEX%202.jpg",
-      "smallImage": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTAxNTksInB1ciI6ImJsb2JfaWQifX0=--36fe19543534385341a3da3c54523727876ca7ed/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOls1MzMsMzAwXSwic2F2ZXIiOnsicXVhbGl0eSI6MTAwfX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--e71c32d7bfdf873fe63d3a1a7562e83a6cf3c39c/ALEX%202.jpg",
-      "largeImage": "https://app.createacademy.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTAxNTksInB1ciI6ImJsb2JfaWQifX0=--36fe19543534385341a3da3c54523727876ca7ed/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpbGwiOlsxNDQwLDgyMF0sInNhdmVyIjp7InF1YWxpdHkiOjEwMH19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--c10209b939761fec9d9159adc070036236e13d91/ALEX%202.jpg",
-      "description": "<div>This course, led by acclaimed interior designer Alex Dauley, offers a practical guide to interior design, showing how to create clean, modern spaces that work perfectly at whichever stage of life you may be. Filmed in Alex's studio and client homes, the course offers hands-on experience in creating beautiful, meaningful spaces. Focusing on functionality, emotion, texture, and timeless design, it's perfect for anyone looking to transform a space that truly reflects who they are and how they live.</div>",
-      "shortSummary": "Design clean, crisp spaces with purpose with Alex Dauley",
-      "instructorByline": "I believe every space has a story. We craft spaces that create experiences, memories, and moments that last a lifetime.",
-      "landingPageDescription": "",
-      "seoDescription": "Design clean, crisp spaces with purpose with Alex Dauley",
-      "link": "https://createacademy.com/courses/alex-dauley",
-      "releaseMonth": "October 2025",
+      "releaseMonth": "December 2025",
       "releaseDate": null,
       "duration": 0,
       "humanizedDuration": "00:00",
