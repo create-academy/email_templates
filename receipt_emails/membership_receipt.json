@@ -1,0 +1,29 @@
+{
+  "email": "user@example.com",
+  "membership": {
+    "id": 12345,
+    "name": "Premium Membership",
+    "slug": "premium",
+    "start_date": "2024-01-15",
+    "end_date": "2024-02-15",
+    "renewal_date": "2024-02-15",
+    "stripe_subscription_id": "sub_1234567890"
+  },
+  "payment": {
+    "amount": 9900,
+    "paid_amount": 8900,
+    "discount": 1000,
+    "currency": "USD",
+    "payment_date": "2024-01-15",
+    "stripe_invoice_id": "in_1234567890",
+    "stripe_coupon_id": "coupon_1234567890"
+  },
+  "plan": {
+    "name": "Premium Membership",
+    "description": "Access to all premium courses and features",
+    "subscription_price": 9900,
+    "discount_percent": 10,
+    "monthly_price": 9900,
+    "plan_validity": 1
+  }
+}

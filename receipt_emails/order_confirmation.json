@@ -1,0 +1,19 @@
+{
+  "email": "user@example.com",
+  "order": {
+    "id": 12345,
+    "humanized_amount_without_discount": "$99.00",
+    "humanized_discount": "$10.00",
+    "humanized_amount": "$89.00"
+  },
+  "items": [
+    {
+      "id": 1,
+      "name": "Course Title",
+      "description": "Course description",
+      "price": "$89.00",
+      "quantity": 1
+    }
+  ],
+  "url": "http://localhost:3000/?utm_source=order+confirmation&utm_medium=email&utm_campaign=transactional"
+}

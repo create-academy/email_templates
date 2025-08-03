@@ -1,0 +1,6 @@
+{
+  "name": "John Doe",
+  "email": "john.doe@example.com",
+  "is_new": true,
+  "url": "http://localhost:3000/users/password/edit?reset_password_token=abc123&utm_source=subscription+confirmation&utm_medium=email&utm_campaign=transactional"
+}
