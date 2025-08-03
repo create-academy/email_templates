@@ -1,0 +1,50 @@
+{
+  "email": "user@example.com",
+  "url": "https://example.com/carts/orders/new?utm_source=abandoned+cart&utm_medium=email&utm_campaign=nurturing",
+  "items": [
+    {
+      "course": true,
+      "name": "Course Name",
+      "slug": "course-slug",
+      "price": "$99.00",
+      "status": "published",
+      "release_date": "January 2024",
+      "thumb": "https://create-academy-prod.s3.amazonaws.com/email_templates/hill.jpg",
+      "image": "https://create-academy-prod.s3.amazonaws.com/email_templates/hill.jpg",
+      "teacher": {
+        "full_name": "John Doe"
+      }
+    },
+    {
+      "campaign": true,
+      "name": "Campaign Name",
+      "slug": "campaign-slug",
+      "price": "$199.00",
+      "thumb": "https://create-academy-prod.s3.amazonaws.com/email_templates/hill.jpg"
+    }
+  ],
+  "courses": [
+    {
+      "course": true,
+      "name": "Course Name",
+      "slug": "course-slug",
+      "price": "$99.00",
+      "status": "published",
+      "release_date": "January 2024",
+      "thumb": "https://create-academy-prod.s3.amazonaws.com/email_templates/hill.jpg",
+      "image": "https://create-academy-prod.s3.amazonaws.com/email_templates/hill.jpg",
+      "teacher": {
+        "full_name": "John Doe"
+      }
+    }
+  ],
+  "campaigns": [
+    {
+      "campaign": true,
+      "name": "Campaign Name",
+      "slug": "campaign-slug",
+      "price": "$199.00",
+      "thumb": "https://create-academy-prod.s3.amazonaws.com/email_templates/hill.jpg"
+    }
+  ]
+}

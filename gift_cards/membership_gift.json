@@ -1,0 +1,16 @@
+{
+  "order": {
+    "id": 123,
+    "recipient_message": "Happy Birthday!"
+  },
+  "campaign": {
+    "name": "Summer Sale Campaign"
+  },
+  "gift": {
+    "code": "GIFT123456",
+    "price": 99.99,
+    "humanized_price": "$99.99",
+    "download_url": "https://example.com/gift/GIFT123456"
+  },
+  "url": "https://createacademy.com?utm_source=gift%20voucher&utm_medium=email&utm_campaign=referral"
+}
